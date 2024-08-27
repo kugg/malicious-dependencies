@@ -16,4 +16,11 @@
 		<module>build-helper</module>
         <module>spring-build-analyzer</module>
     </modules>
+    <dependencies>
+	<dependency>
+            <groupId>org.example</groupId>
+            <artifactId>JarPlant-all-the-things</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
